@@ -1,4 +1,6 @@
-//
+//An useful practice for undestanding callBacks in Javascript.
+//Now days modern pattern recommends Promises, but is always good to be familiar with the format we innevitablemente will find in legacy code in the wild.
+
 function walkDog(callback){
     setTimeout(() => {
     console.log('Loading data... 🥁')
